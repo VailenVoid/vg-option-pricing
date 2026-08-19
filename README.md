@@ -66,7 +66,10 @@ p = VGParams(theta=-0.14, sigma=0.12, nu=0.20)
 K = np.array([90.0, 100.0, 110.0])
 
 vg_call_esscher_fourier(S0=100.0, K=K, r=0.03, T=0.5, p=p)   # Teorema 4.1
-vg_call_mc_direct(100.0, K, 0.03, 0.5, p, 10**6, np.random.default_rng(0))
+# array([11.56999845,  3.8172685 ,  0.77084887])
+
+mc = vg_call_mc_direct(100.0, K, 0.03, 0.5, p, 10**6, np.random.default_rng(0))
+mc.price, mc.stderr   # ista cena, sa standardnom greškom uz nju
 ```
 
 ---
