@@ -1,0 +1,12 @@
+{
+  "ticker": "^XSP",
+  "asof": "2026-08-18T08:43:40+00:00",
+  "spot": 778.5800170898438,
+  "risk_free_irx": 0.03630299948180117,
+  "dividend_yield": 0.011890283250824717,
+  "chain_file": "XSP_chain_20260818T084340Z.csv",
+  "history_file": "GSPC_history.csv",
+  "n_raw_quotes": 2987,
+  "history_ticker": "^GSPC",
+  "exercise_style": "European (cash-settled index option)"
+}
